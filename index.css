@@ -1,55 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-transform: medium;
-    text-align: center;
-    transition: 2s linear;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: medium;
+  text-align: center;
+  transition: 2s linear;
 }
-#container{
-    background-color: aqua;
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-    height: 5px;
-
+#container {
+  background-color: aqua;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  height: 5px;
 }
-.logo{
-    font-size: 1rem;
-    color: black;
-    font-weight: bold;
-    text-transform: capitalize;
-    
+.logo {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
 }
-.logo span{
-    color: rgb(226, 43, 150);
-    
+.logo span {
+  color: rgb(226, 43, 150);
 }
 
 .icons {
-    font-size: 2rem;
-    background-color: aqua;
-    color: black;
-    padding-top: 50px;
-    margin-top: -30;
+  font-size: 2rem;
+  background-color: aqua;
+  color: black;
+  padding-top: 50px;
+  margin-top: -30;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
-#About{
-    margin-left: 10px;
-    margin-right: 10px;
+#About {
+  margin-left: 10px;
+  margin-right: 10px;
 }
-#phoneAccessories{
-    margin-right: 10px;
+#phoneAccessories {
+  margin-right: 10px;
 }
 
-.search-form{
-    background-color: salmon;
-    height: 90px;
-    align-items: center;
-
+.search-form {
+  background-color: salmon;
+  height: 90px;
+  align-items: center;
 }
