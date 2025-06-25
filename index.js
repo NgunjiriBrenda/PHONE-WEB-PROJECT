@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   displayAccessory();
   addphoneAccessory();
 });
-
+// addphoneaccessory function
 function addphoneAccessory(){
    const accessoryform = document.getElementById('add-form')
    accessoryform.addEventListener("submit",function(e){
@@ -51,4 +51,7 @@ function addphoneAccessory(){
 
   })
 }
-  
+
+function deletephoneAccessory(){
+  const
+}

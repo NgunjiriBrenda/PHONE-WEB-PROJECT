@@ -7,7 +7,10 @@
   text-transform: medium;
   text-align: center;
   transition: 2s linear;
+}body{
+  background-color: lightpink;
 }
+
 #container {
   background-color: aqua;
   display: flex;
@@ -57,15 +60,20 @@
 .phoneAccessories{
   width: 400px;
   height: 400px;
-  margin: 25px 20px;
+  margin: 25px 25px;
   background-size: cover;
   justify-content: space-evenly;
   background-color: lightgray;
   border-radius: 10px;
-  padding: 20px 20px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 .title{
   color: brown;
   font-weight: bold;
 }
+ button{
+  background-color: lightcyan;
+  padding: 10px;
+ }
