@@ -42,10 +42,30 @@
 }
 #phoneAccessories {
   margin-right: 10px;
+
 }
 
 .search-form {
   background-color: salmon;
   height: 90px;
   align-items: center;
+}
+#phoneAccessoriesList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.phoneAccessories{
+  width: 400px;
+  height: 400px;
+  margin: 25px 20px;
+  background-size: cover;
+  justify-content: space-evenly;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 20px 20px;
+
+}
+.title{
+  color: brown;
+  font-weight: bold;
 }

@@ -1,64 +1,48 @@
 {
   "phone-accessory": [
     {
+      "id": 1,
       "name": "UltraShield Tempered Glass Screen Protector",
       "brand": "ClearGuard",
       "description": "Crystal-clear 9H hardness tempered glass with 2.5D rounded edges and anti-fingerprint coating for scratch and drop protection.",
-      "image": "https://img.freepik.com/free-vector/smartphone-with-glass-screen-protector-film-set_107791-1182.jpg?semt=ais_items_boosted&w=740"
+      "image": "https://plus.unsplash.com/premium_photo-1681702277226-d3c63331730a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBob25lJTIwU2NyZWVuJTIwUHJvdGVjdG9yfGVufDB8fDB8fHww"
     },
     {
+      "id": 2,
       "name": "PowerMax 10000mAh Fast-Charging Power Bank",
       "brand": "PowerMax",
       "description": "Compact 10000 mAh power bank with dual USB-C & USB-A ports, supporting 18 W fast input/output charging.",
-      "image": "https://img.freepik.com/free-photo/phone-mobile-connect-battery-power-bank_93675-128461.jpg?semt=ais_items_boosted&w=740"
+      "image": "https://images.unsplash.com/photo-1574494462163-91285e2386c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG93ZXJiYW5rc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
+      "id": 3,
       "name": "AirWave 10W Wireless Charging Pad",
       "brand": "AirWave",
       "description": "Qi-certified charging pad with LED indicator and non-slip rubber surface—delivers up to 10 W fast wireless charging.",
-      "image": "https://img.freepik.com/free-photo/ai-powered-device-concept_23-2151924138.jpg?semt=ais_items_boosted&w=740"
+      "image": "https://images.unsplash.com/photo-1603674554159-b62f6febbce5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpcmVsZXNzJTIwY2hhcmdpbmclMjBwYWR8ZW58MHx8MHx8fDA%3D"
     },
     {
+      "id": 4,
       "name": "GripMate Magnetic Phone Grip",
       "brand": "GripMate",
       "description": "Collapsible magnetic grip/stand compatible with MagSafe—enhances one-handed use and doubles as kickstand.",
-      "image": "https://img.freepik.com/premium-psd/popsocket-phone-mockup_1332-1754.jpg?semt=ais_items_boosted&w=740"
+      "image": "https://images.unsplash.com/photo-1592571148494-08b2c2253556?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9iaWxlJTIwcGhvbmUlMjBncmlwfGVufDB8fDB8fHww"
     },
+  
     {
-      "name": "DriveBuddy Magnetic Car Mount",
-      "brand": "DriveBuddy",
-      "description": "Strong-magnet dashboard & vent phone mount with easy one-hand attachment; compatible with metal plates and MagSafe cases.",
-      "image": "https://img.freepik.com/premium-photo/car-smart-phone-holder_93200-218.jpg?semt=ais_items_boosted&w=740"
-    },
-    {
+      "id": 5,
       "name": "ClipCam 3‑in‑1 Lens Kit",
       "brand": "ClipCam",
       "description": "Universal clip-on kit featuring macro, wide-angle, and fisheye lenses—comes with hard case and cleaning cloth.",
-      "image": "https://img.freepik.com/free-photo/separated-objective-camera_140725-8072.jpg?semt=ais_items_boosted&w=740"
+      "image": "https://images.unsplash.com/photo-1539085946393-9e2aa865b4c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENsaXBDYW0lMjAzJUUyJTgwJTkxaW4lRTIlODAlOTExJTIwTGVucyUyMEtpdHxlbnwwfHwwfHx8MA%3D%3D"
     },
+    
     {
-      "name": "NomadPhone Beaded Wrist Strap",
-      "brand": "NomadPhone",
-      "description": "Stylish beaded wrist strap that prevents phone drops and doubles as a fashion accessory—phone wristlets are trending for safety and style :contentReference[oaicite:2]{index=2}.",
-      "image": "https://img.freepik.com/free-photo/woman-using-smartphone-with-pop-socket_52683-107793.jpg?semt=ais_items_boosted&w=740"
-    },
-    {
-      "name": "Surphy Adjustable Phone Lanyard",
-      "brand": "Surphy",
-      "description": "Durable nylon phone lanyard with adjustable length—ideal for hands-free use and everyday convenience :contentReference[oaicite:3]{index=3}.",
-      "image": "https://img.freepik.com/premium-photo/pink-leather-case-iphone-isolated-white-background_219698-1263.jpg?semt=ais_items_boosted&w=740"
-    },
-    {
-      "name": "JoyCharge 3‑in‑1 Braided Cable",
-      "brand": "JoyCharge",
-      "description": "120 cm braided charging/data cable with USB-C, micro-USB, and Lightning connectors; fast-sync capable.",
-      "image": "https://media.istockphoto.com/id/1318123404/photo/three-different-type-of-usb-cable-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=xqeF3UHxKO1-hP3agUuXnHlSBiuFMTumH445sqgZB4I="
-    },
-    {
+      "id": 6,
       "name": "PhotoTrip Mini Tripod with Ring Light",
       "brand": "PhotoTrip",
       "description": "Flexible mini tripod for mobile photo/video, plus detachable adjustable-brightness ring light—great for creators :contentReference[oaicite:4]{index=4}.",
-      "image": "https://media.istockphoto.com/id/1386960277/photo/tripod-with-a-lamp-for-a-selfie-isolated-on-a-white-background-space-for-text.webp?a=1&b=1&s=612x612&w=0&k=20&c=tZzIxyIaFV8tvm64e-vW0OUePBXjvAoLU01lZkTNq9w="
+      "image": "https://images.unsplash.com/photo-1733759552561-e7fd6226ffc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fFBob3RvVHJpcCUyME1pbmklMjBUcmlwb2QlMjB3aXRoJTIwUmluZyUyMExpZ2h0fGVufDB8fDB8fHww"
     }
   ]
 }
