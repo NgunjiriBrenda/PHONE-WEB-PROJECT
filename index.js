@@ -10,7 +10,8 @@ function renderPhoneAccessories(phoneAccessory) {
     <p class= "title">${phoneAccessory.name}</p> 
     <p>${phoneAccessory.brand}</p>
     <p>${phoneAccessory.description}</p>
-    <img src=${phoneAccessory.image} style ="width: 100%; height: auto;"/>`;
+    <img src=${phoneAccessory.image} style ="width: 100%; height: auto;"/>
+    `;
   //creates a new element
   document.getElementById("phoneAccessoriesList").append(card);
 }
@@ -19,10 +20,35 @@ function displayAccessory() {
   fetch("http://localhost:3000/phone-accessory")
     //filtering responses
     .then((res) => res.json())
-    .then((phoneAccessories) =>
+    .then(phoneAccessories =>
       phoneAccessories.forEach(renderPhoneAccessories)
     );
 }
 document.addEventListener("DOMContentLoaded", function () {
   displayAccessory();
+  addphoneAccessory();
 });
+
+function addphoneAccessory(){
+   const accessoryform = document.getElementById('add-form')
+   accessoryform.addEventListener("submit",function(e){
+    e.preventDefault();
+    const name = document.getElementById('nameInput').value ;
+    const brand = document.getElementById('brandInput').value ;
+    const description = document.getElementById('descInput').value ;
+    const image = document.getElementById('imageInput').value ;
+    const formData = {name, brand, description, image}
+
+    fetch("http://localhost:3000/phone-accessory",{
+      method: "POST",
+      headers:{"content-type": "application/json"},
+      body: JSON.stringify(formData)
+    }
+  )
+ .then(res => res.json())
+ .then(addednewAccessory => renderPhoneAccessories(addednewAccessory))
+
+
+  })
+}
+  

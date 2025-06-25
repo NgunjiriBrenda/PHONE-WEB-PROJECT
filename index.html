@@ -74,36 +74,33 @@
     </div>
 
     <section>
-      <form class="search-form">
+      <form id= "add-form">       
         <h3>Add a new accessory</h3>
         <!--input placeholders-->
         <input
           type="text"
           id="nameInput"
-          name="accessoryName"
           placeholder="Enter name of accessory"
           required
         />
         <input
           type="text"
           id="brandInput"
-          name="brand"
           placeholder="Enter brand name"
           required
         />
         <input
           type="text"
           id="descInput"
-          name="description"
           placeholder="Enter description"
           required
         />
         <input
           type="url"
           id="imageInput"
-          name="image"
           placeholder="Enter image URL"
         />
+        <button type="submit">Add phone accessory</button>   
       </form>
     </section>
     <div id="phoneAccessoriesList"></div>
