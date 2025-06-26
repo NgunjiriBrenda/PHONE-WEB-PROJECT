@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
         headers: { "content-type": "application/json" },
         body: JSON.stringify(formData),
       })
+      
         .then((res) => res.json())
         .then((addednewAccessory) => renderPhoneAccessories(addednewAccessory));
     });
