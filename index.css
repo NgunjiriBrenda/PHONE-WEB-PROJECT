@@ -7,7 +7,8 @@
   text-transform: medium;
   text-align: center;
   transition: 2s linear;
-}body{
+}
+body {
   background-color: lightpink;
 }
 
@@ -45,7 +46,6 @@
 }
 #phoneAccessories {
   margin-right: 10px;
-
 }
 
 .search-form {
@@ -53,11 +53,11 @@
   height: 90px;
   align-items: center;
 }
-#phoneAccessoriesList{
+#phoneAccessoriesList {
   display: flex;
   flex-wrap: wrap;
 }
-.phoneAccessories{
+.phoneAccessories {
   width: 400px;
   height: 400px;
   margin: 25px 25px;
@@ -67,13 +67,12 @@
   border-radius: 10px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-.title{
+.title {
   color: brown;
   font-weight: bold;
 }
- button{
+button {
   background-color: lightcyan;
   padding: 10px;
- }
+}
