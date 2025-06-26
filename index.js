@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //delete refreshes
 
   //get datas as objects
-  function displayAccessory() {
+  function displayAccessory(){
     fetch("http://localhost:3000/phone-accessory")
       //filtering responses
       .then((res) => res.json())
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
         headers: { "content-type": "application/json" },
         body: JSON.stringify(formData),
       })
-      
+
         .then((res) => res.json())
         .then((addednewAccessory) => renderPhoneAccessories(addednewAccessory));
     });
