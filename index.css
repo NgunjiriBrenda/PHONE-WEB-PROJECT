@@ -97,4 +97,39 @@ button {
   cursor: pointer;
 
 }
+footer{
+  background-color: bisque;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  justify-content:space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+}
+.footer-section{
+  margin: 10px;
+}
+
+#footer-about h3{
+  color: aqua;
+  font-size: 1.5rem;
+  border-bottom: 2px;
+}
+#footer-phone accessory h3{
+  color: brown;
+  font-size: 1.5rem;
+  border-bottom: 2px solid brown;
+
+}
+#footer-contact h3{
+  color: blue;
+
+}
+.footer-section{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 
