@@ -26,7 +26,7 @@ The live site allows you to:
 ###### Local Development
 -If you want to run the project locally you will need :
   -Download json-server on your computer 
-  -Basic understanding of HTML,CSS and JS
+  -Basic understanding of HTML,CSS and Javascript 
   -Core editor :VS Code
   -Terminal
 
