@@ -15,3 +15,16 @@ Reruirements
 -A computer,tablet or phone 
 -Access to the internet
 -A modern web browser
+
+#####View Live Site
+The live site allows you to:
+-Browse through the list of phone accessories 
+-Click on the delete button to delete
+-Scroll down for easy  visibility of the phone accessories.
+
+###### Local Development
+-If you want to run the project locally you will need :
+  -Download json-server on your computer 
+  -Basic understanding of HTML,CSS and JS
+  -Core editor :VS Code
+  -Terminal
