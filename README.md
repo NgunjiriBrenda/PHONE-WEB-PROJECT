@@ -11,7 +11,7 @@ The filter category were planned ,they can show the lists of accessories but wil
 -On the same homepage there is a filter that gives more inforamtion about the phone accessories and contact.
 
 ####How to Use
-Reruirements
+Requirements
 -A computer,tablet or phone 
 -Access to the internet
 -A modern web browser
