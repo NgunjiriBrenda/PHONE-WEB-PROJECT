@@ -24,6 +24,9 @@ body {
   color: black;
   font-weight: bold;
   text-transform: capitalize;
+  margin-right: 180vh;
+
+  
 }
 .logo span {
   color: rgb(226, 43, 150);
@@ -39,6 +42,8 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  margin-left: 150vh;
 }
 #About {
   margin-left: 10px;
@@ -74,9 +79,22 @@ body {
 }
 button {
   background-color:lightgreen;
-  padding: 10px 12px;
-  border-radius: 6px;
+  padding: 5px 8px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+#categoryFilter{
+  background-color: lightsalmon;
+  padding: 6px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-transform: medium;
+  border-radius: 5px;
+  border: 1px solid bisque;
+  cursor: pointer;
 
 }
+

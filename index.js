@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  let phoneAccessories=[];
   function renderPhoneAccessories(phoneAccessory) {
     const card = document.createElement("div");
     card.id = phoneAccessory.id;
@@ -9,12 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     //innerHTML takes a new card and gives a short explanation of phone accessories.
     //innerHTML assigns a new name.
     card.innerHTML = `
-    <p class= "title">${phoneAccessory.name}</p> 
-    <p> class= "category">${phoneAccessory.category}</p>
+    <p class= "title">${phoneAccessory.name}</p>
     <p>${phoneAccessory.brand}</p>
     <p>${phoneAccessory.description}</p>
     <img src=${phoneAccessory.image} style ="width: 100%; height: auto;"/>
-    <button id="btn" class="button"></button>
+    <button class="button">Delete</button>
     `;
 
     //creates a new element
@@ -35,6 +35,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //delete refreshes
+  const categoryFilter = document.getElementById("categoryFilter");
+  categoryFilter.addEventListener("change",() =>{
+    const selectCategory = categoryFilter.value;
+    document.getElementById("accessoryContainer").innerHTML = "";
+    const filtereredphoneAccessories = selectCategory === "All"
+    ?phoneAccessories
+    :phoneAccessories.filter(item => item.category === selectedCategory);
+    filteredphoneAccessories.forEach(renderPhoneAccessories);
+     });
+
 
   //get datas as objects
   function displayAccessory(){ 
