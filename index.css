@@ -73,6 +73,10 @@ body {
   font-weight: bold;
 }
 button {
-  background-color: lightcyan;
-  padding: 10px;
+  background-color:lightgreen;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
 }

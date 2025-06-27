@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //innerHTML assigns a new name.
     card.innerHTML = `
     <p class= "title">${phoneAccessory.name}</p> 
+    <p> class= "category">${phoneAccessory.category}</p>
     <p>${phoneAccessory.brand}</p>
     <p>${phoneAccessory.description}</p>
     <img src=${phoneAccessory.image} style ="width: 100%; height: auto;"/>
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //delete refreshes
 
   //get datas as objects
-  function displayAccessory(){
+  function displayAccessory(){ 
     fetch("http://localhost:3000/phone-accessory")
       //filtering responses
       .then((res) => res.json())
@@ -69,14 +70,3 @@ document.addEventListener("DOMContentLoaded", () => {
   addphoneAccessory();
 });
 
-// function deletephoneaccessory(id){
-//   if("confirm"("Are you sure you want to delete this phone accessory?")){
-//     accessory = accessory.filter(accessory => accessory.id !==id);
-//   }renderphoneaccessory();
-
-// }
-
-// function deletephoneaccessory(){
-//   const accessoryform = document.getElementById('delete-form');
-//   accessoryform.addEventListener("click",function(e){
-//   e.preventDefault();

@@ -5,67 +5,72 @@
       "name": "UltraShield Tempered Glass Screen Protector",
       "brand": "ClearGuard",
       "description": "Crystal-clear 9H hardness tempered glass with 2.5D rounded edges and anti-fingerprint coating for scratch and drop protection.",
-      "image": "https://plus.unsplash.com/premium_photo-1681702277226-d3c63331730a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBob25lJTIwU2NyZWVuJTIwUHJvdGVjdG9yfGVufDB8fDB8fHww"
+      "image": "https://plus.unsplash.com/premium_photo-1681702277226-d3c63331730a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBob25lJTIwU2NyZWVuJTIwUHJvdGVjdG9yfGVufDB8fDB8fHww",
+      "category": "Protectors"
     },
     {
       "id": 2,
       "name": "PowerMax 10000mAh Fast-Charging Power Bank",
       "brand": "PowerMax",
       "description": "Compact 10000 mAh power bank with dual USB-C & USB-A ports, supporting 18 W fast input/output charging.",
-      "image": "https://images.unsplash.com/photo-1574494462163-91285e2386c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG93ZXJiYW5rc3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1574494462163-91285e2386c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG93ZXJiYW5rc3xlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Powerbanks"
     },
     {
       "id": 3,
       "name": "AirWave 10W Wireless Charging Pad",
       "brand": "AirWave",
       "description": "Qi-certified charging pad with LED indicator and non-slip rubber surface—delivers up to 10 W fast wireless charging.",
-      "image": "https://images.unsplash.com/photo-1603674554159-b62f6febbce5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpcmVsZXNzJTIwY2hhcmdpbmclMjBwYWR8ZW58MHx8MHx8fDA%3D"
+      "image": "https://images.unsplash.com/photo-1603674554159-b62f6febbce5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpcmVsZXNzJTIwY2hhcmdpbmclMjBwYWR8ZW58MHx8MHx8fDA%3D",
+      "category": "Charging pad"
     },
     {
       "id": 4,
       "name": "Bassboot Wireless",
       "brand": "BassBoost",
       "description": "Over-ear headphones with 40-hour battery life",
-      "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNwZWFrZXJzfGVufDB8fDB8fHww"
+      "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNwZWFrZXJzfGVufDB8fDB8fHww",
+      "category": "Bassboot"
     },
     {
       "id": 5,
       "name": "PhotoTrip Mini Tripod with Ring Light",
       "brand": "PhotoTrip",
       "description": "Flexible mini tripod for mobile photo/video, plus detachable adjustable-brightness ring light—great for creators :contentReference[oaicite:4]{index=4}.",
-      "image": "https://images.unsplash.com/photo-1733759552561-e7fd6226ffc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fFBob3RvVHJpcCUyME1pbmklMjBUcmlwb2QlMjB3aXRoJTIwUmluZyUyMExpZ2h0fGVufDB8fDB8fHww"
+      "image": "https://images.unsplash.com/photo-1733759552561-e7fd6226ffc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fFBob3RvVHJpcCUyME1pbmklMjBUcmlwb2QlMjB3aXRoJTIwUmluZyUyMExpZ2h0fGVufDB8fDB8fHww",
+      "category": "Tripods"
     },
     {
       "id": 6,
       "name": "Wireless Earbuds",
       "brand": "SoundPro",
       "description": "Noise-calling Bluetooth earbuds with charging case",
-      "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lyZWxlc3MlMjBlYXJidWRzfGVufDB8fDB8fHww"
-      
+      "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lyZWxlc3MlMjBlYXJidWRzfGVufDB8fDB8fHww",
+      "category": "Earbuds"
     },
     {
       "id": 7,
       "name": "MugSafe Charger",
       "brand": "MagTech",
       "description": "Fast wireless charger commpactible with iphone 12 and above",
-      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hhcmdlcnN8ZW58MHx8MHx8fDA%3D"
-
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hhcmdlcnN8ZW58MHx8MHx8fDA%3D",
+      "category": "Chargers"
     },
     {
-
       "id": 8,
       "name": "Glitter Phone Case",
       "brand": "ShinySheil",
       "description": "Cute protective case with glitter liquid design",
-      "image": "https://images.unsplash.com/photo-1731908998486-c903c3b662d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdsaXR0ZXIlMjBwaG9uZSUyMGNhc2V8ZW58MHx8MHx8fDA%3D"
-
+      "image": "https://images.unsplash.com/photo-1731908998486-c903c3b662d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdsaXR0ZXIlMjBwaG9uZSUyMGNhc2V8ZW58MHx8MHx8fDA%3D",
+      "category": "Phone cases"
     },
     {
       "id": 9,
       "name": "FitFlex Smartwatch",
       "brand": "FitFlex",
       "description": "Tracks your fitness, heartrate and sleep with a sleek design",
-      "image": "https://images.unsplash.com/photo-1696688713460-de12ac76ebc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNtYXJ0d2F0Y2h8ZW58MHx8MHx8fDA%3D"
+      "image": "https://images.unsplash.com/photo-1696688713460-de12ac76ebc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNtYXJ0d2F0Y2h8ZW58MHx8MHx8fDA%3D",
+      "category": "Watches"
     }
   ]
 }
