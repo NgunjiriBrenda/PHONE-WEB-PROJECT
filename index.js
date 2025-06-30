@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("phoneAccessoriesList").append(card);
     const deleteButton = card.querySelector(".button");
     deleteButton.addEventListener("click", (e) => {
-      fetch(`http://localhost:3000/phone-accessory/${phoneAccessory.id}`, {
+      fetch(`https://json-server-it47.onrender.com/phone-accessory/${phoneAccessory.id}`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
       })
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //get datas as objects
   function displayAccessory(){ 
-    fetch("http://localhost:3000/phone-accessory")
+    fetch("https://json-server-it47.onrender.com/phone-accessory")
       //filtering responses
       .then((res) => res.json())
       .then((phoneAccessories) =>
